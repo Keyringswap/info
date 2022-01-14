@@ -72,7 +72,7 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
     )
   }
 
-  const path = `https://raw.githubusercontent.com/thaobacoor/assets/master/blockchains/${getNetworkName()}/assets/${isAddress(
+  const path = `https://raw.githubusercontent.com/Keyringswap/assets/master/blockchains/${getNetworkName()}/assets/${isAddress(
     address
   )}/logo.png`
 
